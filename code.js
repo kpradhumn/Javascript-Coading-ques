@@ -41,3 +41,16 @@ function findPalindrom2(str){
     return str == str.split(").revrese().join(");    
 }
 console.log(findPalindrom2(str2));
+
+// ### Factorial of anumber ###
+
+function factorial(num){
+    if(num == 0 || num ==1){
+        return 1;
+    }
+    else{
+        return num * factorial(num-1);
+    }
+}
+
+console.log(factorial(5));
